@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Иван Иванов</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script
+      src="https://vk.com/js/api/openapi.js?168"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="header" id="header">
+      <nav class="header-nav">
+        <div class="header-nav-logo">
+          <h2 class="header-nav-logo__text">Иван Иванов</h2>
+        </div>
+
+        <ul class="header-nav-ul">
+          <li class="header-nav-ul-li">
+            <a class="header-nav-ul-li__link" href="#main">Главная</a>
+          </li>
+          <li class="header-nav-ul-li">
+            <a class="header-nav-ul-li__link" href="#summary">Резюме</a>
+          </li>
+          <li class="header-nav-ul-li">
+            <a class="header-nav-ul-li__link" href="#projects">Проекты</a>
+          </li>
+          <li class="header-nav-ul-li">
+            <a class="header-nav-ul-li__link" href="#vk_comments">Отзывы</a>
+          </li>
+        </ul>
+
+        <div class="header-nav-burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </div>
+    <!-- /Header -->
+
+    <!-- Block 1 -->
+    <div class="block1" id="main">
+      <div class="block1-content">
+        <img
+          class="block1-content-img"
+          src="./img/Screenshot from 2020-12-16 07-03-58.jpg"
+          alt=""
+        />
+        <div class="block1-content-article">
+          <h1 class="block1-content-article__h1">
+            Эксперт в области Маркетинг и Продажи в Москве
+          </h1>
+
+          <a class="block1-content-article__tel" href="tel:+7(111)123-45-67">
+            +7(111)123-45-67
+          </a>
+
+          <a
+            class="block1-content-article__email"
+            href="mailto:ivan@company.com"
+          >
+            ivan@company.com
+          </a>
+
+          <a class="block1-content-article__about" href="#summary">Обо мне →</a>
+        </div>
+      </div>
+    </div>
+    <!-- /Block 1 -->
+
+    <!-- Block 2 -->
+    <div class="block2" id="summary">
+      <div class="block2-content">
+        <h2 class="block2-content__h2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
+          tempor augue. Sed fringilla malesuada porta. Integer non felis ut
+          metus condimentum pharetra.
+        </h2>
+
+        <div class="block2-content__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
+          tempor augue. Sed fringilla malesuada porta. Integer non felis ut
+          metus condimentum pharetra. Nulla nisl tellus, iaculis id lectus at,
+          ultrices dignissim enim.
+        </div>
+
+        <div class="block2-content-results">
+          <div class="block2-content-results-block1">
+            <h2 class="block2-content-results-block1__h2">4 года</h2>
+            <div class="block2-content-results-block1__text">
+              Четырехлетний опыт работы
+            </div>
+          </div>
+
+          <div class="emptyLine"></div>
+
+          <div class="block2-content-results-block2">
+            <h2 class="block2-content-results-block2__h2">86 клиентов</h2>
+            <div class="block2-content-results-block2__text">
+              Клиентов, из разных сфер
+            </div>
+          </div>
+
+          <div class="emptyLine"></div>
+
+          <div class="block2-content-results-block3">
+            <h2 class="block2-content-results-block3__h2">КПД 96%</h2>
+            <div class="block2-content-results-block3__text">
+              Средний % успешных работ
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Block 2 -->
+
+    <!-- Block 3 -->
+    <div class="block3">
+      <div class="block3-content">
+        <h1 class="block3-content__h1">Виды услуг</h1>
+
+        <div class="block3-content-group">
+          <div class="block3-content-group__1">
+            <img
+              class="block3-content-group__1-img"
+              src="./img/check.png"
+              alt=""
+            />
+            <p class="block3-content-group__1-p">
+              Подготовлю ваш бизнес к контрольной отчётности
+            </p>
+          </div>
+
+          <div class="block3-content-group__2">
+            <img
+              class="block3-content-group__2-img"
+              src="./img/check.png"
+              alt=""
+            />
+            <p class="block3-content-group__2-p">
+              Запущу успешную рекламную компанию
+            </p>
+          </div>
+
+          <div class="block3-content-group__3">
+            <img
+              class="block3-content-group__3-img"
+              src="./img/check.png"
+              alt=""
+            />
+            <p class="block3-content-group__3-p">
+              Объясняю простым языком проблемы бизнеса
+            </p>
+          </div>
+
+          <div class="block3-content-group__4">
+            <img
+              class="block3-content-group__4-img"
+              src="./img/check.png"
+              alt=""
+            />
+            <p class="block3-content-group__4-p">
+              Помогаю с увелечением продаж
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Block 3 -->
+
+    <!-- Block 4 -->
+    <div class="block4" id="projects">
+      <div class="block4-header">
+        <div class="emptyLine"></div>
+        <h1 class="block4-header__h1">Ниже вы можете видить мои работы!</h1>
+        <div class="emptyLine1"></div>
+      </div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="./img/img1.jpeg" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="./img/img2.jpeg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="./img/img4.jpeg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!-- /Block 4 -->
+
+    <!-- Block 5 -->
+    <script type="text/javascript">
+      VK.init({ apiId: 7703161, onlyWidgets: true });
+    </script>
+
+    <div id="vk_comments"></div>
+    <script type="text/javascript">
+      VK.Widgets.Comments("vk_comments", { limit: 5, attach: "*" });
+    </script>
+    <!-- /Block 5 -->
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+      <div class="footer-media">
+        <a class="footer-media__link" href="https://vk.com">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="30"
+            height="30"
+            viewBox="0 0 172 172"
+            style="fill: #000000"
+          >
+            <g
+              fill="none"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g id="original-icon" fill="#ffffff">
+                <path
+                  d="M86,6.88c-43.65844,0 -79.12,35.46156 -79.12,79.12c0,43.65844 35.46156,79.12 79.12,79.12c43.65844,0 79.12,-35.46156 79.12,-79.12c0,-43.65844 -35.46156,-79.12 -79.12,-79.12zM86,13.76c39.93625,0 72.24,32.30375 72.24,72.24c0,39.93625 -32.30375,72.24 -72.24,72.24c-39.93625,0 -72.24,-32.30375 -72.24,-72.24c0,-39.93625 32.30375,-72.24 72.24,-72.24zM51.6,61.92h-13.8675c0,0 -0.80625,-0.04031 -1.76031,0.09406c-0.95406,0.12094 -2.37844,0.17469 -3.82969,1.8275l-0.01344,0.01344c-1.29,1.47813 -1.24969,3.19813 -1.08844,4.13875c0.16125,0.94062 0.52406,1.65281 0.5375,1.65281v0.01344c0.12094,0.3225 10.19906,25.02063 22.91094,38.28344c8.96281,9.36594 18.54375,12.45656 27.09,12.45656h4.42094c1.45125,0 2.75469,-0.06719 4.1925,-0.80625c1.45125,-0.7525 2.6875,-2.80844 2.6875,-4.4075c0,-1.73344 0.04031,-3.39969 0.26875,-4.34031c0.20156,-0.86 0.12094,-0.645 0.20156,-0.65844c0.08062,0.02687 0.22844,0.05375 0.51062,0.18813c0.61813,0.28219 1.57219,0.90031 2.62031,1.70656c2.09625,1.63938 4.58219,4.00438 7.37719,5.83188c3.99094,2.64719 8.33125,2.48594 8.33125,2.48594h14.2975l0.14781,-0.01344c0,0 2.20375,-0.05375 4.46125,-1.43781c1.11531,-0.68531 2.45906,-1.94844 2.9025,-3.85656c0.45688,-1.89469 -0.12094,-3.88344 -1.22281,-5.64375c-0.40312,-0.63156 -2.365,-3.48031 -10.18562,-10.4275c-2.01563,-1.78719 -3.39969,-3.05031 -3.95063,-3.72219c-0.18812,-0.24188 -0.20156,-0.22844 -0.24187,-0.22844c0.04031,-0.12094 0.49719,-1.075 1.70656,-2.64719c1.26313,-1.63938 3.17125,-3.92375 5.63031,-7.05469c3.14438,-4.00437 5.34813,-7.8475 6.73219,-11.08594c0.69875,-1.62594 1.1825,-3.09063 1.47813,-4.42094c0.29563,-1.34375 0.52406,-2.44563 0.09406,-4.03125c-0.3225,-1.1825 -1.20938,-2.23063 -2.06938,-2.78156c-0.86,-0.56438 -1.66625,-0.77938 -2.39187,-0.91375c-1.45125,-0.25531 -2.72781,-0.215 -3.91031,-0.215c-2.48594,0 -13.55844,0.09406 -14.47219,0.09406c-1.075,0 -2.78156,0.44344 -3.57438,0.88687c-1.96187,1.12875 -2.58,2.67406 -2.58,2.67406l-0.18812,0.3225l-0.1075,0.37625c0,0 -2.52625,8.15656 -5.10625,12.3625h-0.01344c-3.05031,4.945 -5.32125,6.90688 -6.31563,7.47125c-0.1075,0.05375 -0.05375,0.02687 -0.12094,0.05375c-0.08063,-0.215 -0.18813,-0.5375 -0.25531,-1.11531c-0.13438,-1.30344 -0.05375,-3.14437 -0.05375,-4.93156c0,-4.93156 0.37625,-8.00875 -0.04031,-10.92469c-0.20156,-1.45125 -0.72562,-3.07719 -1.92156,-4.32687c-1.19594,-1.24969 -2.72781,-1.86781 -4.27313,-2.21719c-1.6125,-0.36281 -3.3325,-0.68531 -7.48469,-0.72563c-5.29438,-0.05375 -8.74781,0.12094 -11.81156,1.47813l-0.02688,0.02687h-0.02687c-1.20937,0.57781 -2.16344,1.22281 -3.01,2.09625c-0.41656,0.43 -0.91375,0.7525 -1.24969,2.13656c-0.17469,0.69875 -0.20156,2.00219 0.59125,3.06375c0.77937,1.06156 1.86781,1.38406 2.52625,1.46469c-0.12094,-0.01344 0.49719,0.12094 0.98094,0.36281c0.49719,0.24187 0.91375,0.59125 1.02125,0.72562c-0.04031,-0.05375 0.41656,1.10188 0.5375,2.16344c0.13437,1.06156 0.1075,1.90812 0.1075,1.90812v0.215l0.01344,0.20156c0,0 0.215,2.33812 0.09406,4.74344c-0.05375,1.20938 -0.20156,2.43219 -0.40313,3.17125c-0.01344,0.04031 -0.01344,0.02687 -0.02687,0.05375c-0.86,-0.59125 -2.84875,-2.6875 -5.59,-7.2025c-2.52625,-4.1925 -4.89125,-11.70406 -4.89125,-11.70406l-0.05375,-0.17469l-0.05375,-0.16125c0,0 -0.44344,-1.66625 -2.40531,-3.05031c-1.8275,-1.27656 -3.56094,-1.46469 -3.56094,-1.46469zM50.80719,68.8c0.20156,0.06719 0.60469,0.215 0.68531,0.25531l-0.08063,-0.24188c0,0 0.1075,0.24188 0.1075,0.25531h0.01344h0.01344c-0.17469,-0.12094 -0.02688,0 -0.01344,0.04031c0.09406,0.3225 2.19031,7.55187 5.4825,12.96719c2.98312,4.945 5.18687,7.71312 7.59219,9.3525c2.41875,1.65281 5.65719,1.49156 7.29656,0.63156c2.20375,-1.14219 2.80844,-3.02344 3.23844,-4.58219c0.43,-1.55875 0.57781,-3.14438 0.645,-4.64938c0.13437,-2.86219 -0.09406,-5.20031 -0.1075,-5.42875c0,-0.13437 0.02687,-1.24969 -0.14781,-2.75469c-0.17469,-1.53188 -0.49719,-3.41313 -1.84094,-5.30781c1.505,-0.22844 2.35156,-0.56437 5.38844,-0.5375c3.89688,0.04031 4.48813,0.20156 6.00656,0.55094c0.83312,0.18813 0.92719,0.34938 0.86,0.26875c-0.08062,-0.08062 -0.01344,-0.13437 0.08062,0.52406c0.18813,1.34375 -0.02687,4.77031 -0.02687,9.97062c0,1.46469 -0.14781,3.53406 0.1075,5.6975c0.24187,2.16344 0.91375,4.93156 3.53406,6.54406c1.47812,0.92719 4.32687,1.24969 7.01437,-0.24187c2.6875,-1.505 5.44219,-4.36719 8.82844,-9.87656c3.34594,-5.42875 5.34813,-12.56406 5.56313,-13.33c0,0 0.04031,-0.01344 0.06719,-0.04031c0.06719,0.01344 -0.01344,0.02688 0.08063,0.02688c1.27656,0 12.1475,-0.09406 14.47219,-0.09406c0.645,0 0.92719,0.04031 1.3975,0.05375c-0.18813,0.73906 -0.45687,1.6125 -0.92719,2.72781c-1.11531,2.60687 -3.03688,6.00656 -5.805,9.54062c-2.39188,3.05031 -4.25969,5.25406 -5.68406,7.095c-1.41094,1.85438 -2.52625,3.30563 -2.99656,5.41531c-0.47031,2.10969 0.43,4.47469 1.63938,5.97969c1.20937,1.51844 2.71437,2.78156 4.73,4.55531c7.56531,6.73219 8.815,8.76125 8.93594,8.94937v0.01344c0.12094,0.20156 0.04031,-0.01344 0.09406,0.09406c-0.43,0.13438 -0.94063,0.28219 -0.99438,0.29563h-13.93469c0,0 -2.56656,-0.08063 -4.46125,-1.34375h-0.01344c-2.01563,-1.33031 -4.44781,-3.58781 -6.94719,-5.52281c-1.24969,-0.9675 -2.52625,-1.88125 -4.00438,-2.53969c-1.46469,-0.67188 -3.34594,-1.14219 -5.30781,-0.55094c-2.84875,0.84656 -4.43437,3.56094 -4.945,5.71094c-0.36281,1.54531 -0.30906,2.88906 -0.3225,4.24625c-0.09406,0 0,0 -0.12094,0h-4.42094c-7.00094,0 -14.27063,-2.13656 -22.11813,-10.33344c-10.19906,-10.65594 -19.29625,-31.25563 -20.66687,-34.38656zM110.81906,68.82687c-0.06719,0.01344 0.1075,0.02688 0.25531,0.04031c-0.01344,0.01344 0,-0.01344 -0.02687,0c0,-0.05375 -0.14781,-0.05375 -0.22844,-0.04031zM110.81906,68.82687"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+
+        <a class="footer-media__link" href="https://ok.com">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="30"
+            height="30"
+            viewBox="0 0 172 172"
+            style="fill: #000000"
+          >
+            <g
+              fill="none"
+              fill-rule="nonzero"
+              stroke="none"
+              stroke-width="1"
+              stroke-linecap="butt"
+              stroke-linejoin="miter"
+              stroke-miterlimit="10"
+              stroke-dasharray=""
+              stroke-dashoffset="0"
+              font-family="none"
+              font-weight="none"
+              font-size="none"
+              text-anchor="none"
+              style="mix-blend-mode: normal"
+            >
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g fill="#ffffff">
+                <path
+                  d="M86,6.88c-43.65603,0 -79.12,35.46397 -79.12,79.12c0,43.65603 35.46397,79.12 79.12,79.12c43.65603,0 79.12,-35.46397 79.12,-79.12c0,-43.65603 -35.46397,-79.12 -79.12,-79.12zM86,13.76c39.93779,0 72.24,32.30221 72.24,72.24c0,39.93779 -32.30221,72.24 -72.24,72.24c-39.93779,0 -72.24,-32.30221 -72.24,-72.24c0,-39.93779 32.30221,-72.24 72.24,-72.24zM86,30.96c-15.15813,0 -27.52,12.36187 -27.52,27.52c0,15.15813 12.36187,27.52 27.52,27.52c15.15813,0 27.52,-12.36187 27.52,-27.52c0,-15.15813 -12.36187,-27.52 -27.52,-27.52zM86,37.84c11.4399,0 20.64,9.2001 20.64,20.64c0,11.4399 -9.2001,20.64 -20.64,20.64c-11.4399,0 -20.64,-9.2001 -20.64,-20.64c0,-11.4399 9.2001,-20.64 20.64,-20.64zM86,44.72c-7.55869,0 -13.76,6.20131 -13.76,13.76c0,7.55869 6.20131,13.76 13.76,13.76c7.55869,0 13.76,-6.20131 13.76,-13.76c0,-7.55869 -6.20131,-13.76 -13.76,-13.76zM86,51.6c3.84046,0 6.88,3.03954 6.88,6.88c0,3.84046 -3.03954,6.88 -6.88,6.88c-3.84046,0 -6.88,-3.03954 -6.88,-6.88c0,-3.84046 3.03954,-6.88 6.88,-6.88zM64.93,87.80063c-5.15801,0.22577 -9.89,4.32363 -9.89,9.9975c0,4.03237 2.25025,7.75885 5.84531,9.61453c1.45531,0.75028 3.01804,1.17748 4.52844,1.77375l-7.35031,7.35031c-4.00097,4.00097 -4.00097,10.59216 0,14.59313c4.00045,4.00558 10.59268,4.00558 14.59313,0l13.34344,-13.33672l13.34344,13.34344c2.00084,2.00597 4.66185,3.02344 7.29656,3.02344c2.63472,0 5.29573,-1.01747 7.29656,-3.02344c4.00097,-4.00097 4.00097,-10.59216 0,-14.59313l-7.35031,-7.35031c1.5104,-0.59627 3.07313,-1.02347 4.52844,-1.77375l0.00672,-0.00672c3.59151,-1.85881 5.8386,-5.58215 5.8386,-9.61453c0,-7.56516 -8.41377,-12.32969 -15.02985,-8.8486h-0.00672c-4.75748,2.50698 -10.15719,3.93047 -15.92344,3.93047c-5.76624,0 -11.1658,-1.42349 -15.92344,-3.93047h-0.00672c-1.65386,-0.87027 -3.42051,-1.22417 -5.13985,-1.1489zM65.05765,94.55297c0.57837,0.01216 1.19268,0.16707 1.80735,0.49047v-0.00672c5.71372,3.01095 12.23516,4.72328 19.135,4.72328c6.89984,0 13.42128,-1.7125 19.135,-4.72328v0.00672c2.45864,-1.29379 4.945,0.06864 4.945,2.75469c0,1.4785 -0.82311,2.83432 -2.12313,3.50719c-2.63326,1.35683 -5.48628,2.43115 -8.47906,3.31234l-5.55641,1.63938l4.09172,4.09844l11.05906,11.05235c1.37231,1.37231 1.37231,3.49206 0,4.86437h-0.00672c-0.6822,0.68411 -1.53762,1.00781 -2.42547,1.00781c-0.88784,0 -1.74311,-0.3237 -2.42547,-1.00781h-0.00672l-18.20781,-18.20781l-18.20781,18.2011v0.00672c-1.36595,1.3677 -3.49842,1.3677 -4.86437,0v-0.00672c-1.37231,-1.37231 -1.37231,-3.48535 0,-4.85765l15.15078,-15.1575l-5.55641,-1.63266c-2.99564,-0.88203 -5.85041,-1.9604 -8.48578,-3.31906c-1.29662,-0.66928 -2.1164,-2.02197 -2.1164,-3.50047c0,-1.34302 0.62237,-2.35322 1.55203,-2.86891c0.46483,-0.25784 1.00726,-0.38841 1.58562,-0.37625z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-signature">
+        <a class="footer-signature-smollas" href="https://smolla.xyz">
+          smolla's project
+        </a>
+      </div>
+    </div>
+    <!-- /Footer -->
+
+    <!-- Button top -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      на вверх ↥
+    </button>
+    <!-- /Button top -->
+
+    <!-- about icons
+    <div>Icons made by <a href="https://www.flaticon.com/authors/swifticons" title="Swifticons">Swifticons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+-->
+
+    <script src="./scripts/burger.js"></script>
+    <script src="./scripts/slider.js"></script>
+    <script src="./scripts/buttonOnTop.js"></script>
+  </body>
+</html>
