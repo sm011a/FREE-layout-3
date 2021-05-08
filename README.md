@@ -4,4 +4,4 @@
 Вся предоставленная информация вымысел и чистейший бред автора.
 
 ## Link:
-https://sm011a.github.io/FREE-layout-3/
+https://smollagames.github.io/FREE-layout-3/
